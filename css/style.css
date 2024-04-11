@@ -126,6 +126,10 @@ img{
     text-align: center;
     
 }
+.cuore:hover{
+    color: red;
+
+}
 
 .immagine1{
     display: block;
@@ -144,4 +148,14 @@ img{
 .immagine-prodotto:hover .immagine2{
     display: block;
     
+}
+
+footer{
+    background-color:#1a1a1a ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: .7rem;
+    padding: 2rem;
 }
