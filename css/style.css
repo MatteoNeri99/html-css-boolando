@@ -51,3 +51,97 @@ a{
     text-decoration: none;
     color: white;
 }
+
+img{
+    height:calc(1200px / 3 );
+    width: auto;
+    margin: .5rem;
+}
+
+.prodotti{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+   
+}
+
+.prezzo-vecchio{
+    text-decoration: line-through;
+    color: black;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.prezzo{
+    color: red;
+}
+.marca,.uppercase,.prezzo{
+    padding-left: .7rem;
+    font-size: .7rem;
+}
+
+.sconto{
+    background-color: red;
+    height: 20px;
+    width: 40px;
+    color: white;
+    font-size: .7rem;
+    text-align: center;
+    padding:3px;
+    position: absolute;
+    left:.6rem;
+    bottom:95px;
+}
+
+.immagine-prodotto{
+    position: relative;
+}
+
+
+.sostenibilità{
+    background-color: green;
+    position: absolute;
+    bottom:95px;
+    left: 3.3rem;
+    text-align: center;
+    height: 20px;
+    width: 80px;
+    font-size: .7rem;
+    padding:3px;
+    color: white;
+    
+}
+
+.cuore{
+    padding: 3px;
+    position: absolute;
+    top:1rem;
+    font-size: 1.5rem;
+    right: 0;
+    width: 40px;
+    height: 35px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.immagine1{
+    display: block;
+}
+
+.immagine2{
+    display:none;
+}
+
+.immagine-prodotto:hover .immagine1{
+    display: none;
+    
+}
+
+
+.immagine-prodotto:hover .immagine2{
+    display: block;
+    
+}
